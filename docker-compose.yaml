@@ -4,7 +4,7 @@ services:
 
   app:
     build:
-      context: node
+      context: app
     container_name: app
     tty: true
     ports:
